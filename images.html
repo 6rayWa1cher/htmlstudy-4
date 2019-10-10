@@ -3,13 +3,36 @@
 
 <head>
   <meta charset="utf-8">
-  <title>boring....</title>
+  <title>something</title>
+  <style media="screen">
+    .img-gallery {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .img-block {
+      width: 500px;
+      margin-right: 15px;
+    }
+    .img-block img {
+      width: 500px;
+    }
+    .img-block h6 {
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
+  <div class="img-gallery">
   <div class="img-block">
-    <img src="img/background.jpg" alt="mountains" width="500px" />
+    <img src="img/img1.jpg" alt="mountains"/>
     <h6>Photo by Joshua Earle on Unsplash</h6>
+  </div>
+  <div class="img-block">
+    <img src="img/img2.jpg" alt="mountains"/>
+    <h6>Photo by Ansgar Scheffold on Unsplash</h6>
+  </div>
   </div>
 </body>
 
