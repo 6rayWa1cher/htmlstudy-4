@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>X/O</title>
+  <style media="screen">
+    .container {
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      grid-template-rows: 200px 200px 200px;
+    }
+
+    input {
+      border: 1px solid silver;
+    }
+
+    input {
+      width: 200px;
+      height: 200px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      text-align: center;
+      font-size: 72px;
+    }
+
+    #cell_1_1 {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    #cell_1_2 {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    #cell_1_3 {
+      grid-column: 3;
+      grid-row: 1;
+    }
+
+    #cell_2_1 {
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    #cell_2_2 {
+      grid-column: 2;
+      grid-row: 2;
+    }
+
+    #cell_2_3 {
+      grid-column: 3;
+      grid-row: 2;
+    }
+
+    #cell_3_1 {
+      grid-column: 1;
+      grid-row: 3;
+    }
+
+    #cell_3_2 {
+      grid-column: 2;
+      grid-row: 3;
+    }
+
+    #cell_3_3 {
+      grid-column: 3;
+      grid-row: 3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <input type="button" id="cell_1_1" class="row_1 col_1" value="X" />
+    <input type="button" id="cell_1_2" class="row_1 col_2" value="X" />
+    <input type="button" id="cell_1_3" class="row_1 col_3" value="X" />
+    <input type="button" id="cell_2_1" class="row_2 col_1" value="X" />
+    <input type="button" id="cell_2_2" class="row_2 col_2" value="X" />
+    <input type="button" id="cell_2_3" class="row_2 col_3" value="X" />
+    <input type="button" id="cell_3_1" class="row_3 col_1" value="X" />
+    <input type="button" id="cell_3_2" class="row_3 col_2" value="X" />
+    <input type="button" id="cell_3_3" class="row_3 col_3" value="X" />
+  </div>
+</body>
+<script src="js/xo_buttons.js" charset="utf-8"></script>
+
+</html>
