@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 100vh;
+}
+
+.color-picker {
+  grid-column: 1;
+}
+
+.color-picker div {
+  display: inline-block;
+}
+
+.canv {
+  grid-column: 2;
+  border: 1px solid black;
+}
+
+table, td {
+  border-collapse: collapse;
+}
+
+td, .color-box {
+  width: 20px;
+  height: 20px;
+}
+
+td {
+  margin: 0;
+  padding: 0;
+}
